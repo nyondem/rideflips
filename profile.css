@@ -1,0 +1,23 @@
+body{
+    margin: 10px;
+    padding: 20px 15px;
+   background-color: black;
+   color: blanchedalmond;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Applying effects to images*/
+.column{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+/*Clearfix (clear floats)*/
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
